@@ -72,6 +72,7 @@ body {
   border: none;
   border-radius: 50%;
 
+
   position: absolute;
   bottom: -2rem;
 
@@ -83,6 +84,10 @@ body {
 #generate_advice img {
   width: 1.875rem;
   height: 1.875rem;
+}
+
+#generate_advice:hover {
+    box-shadow: 3px -3px 50px -5px rgba(82,255,168,1);
 }
 
 .attribution {
