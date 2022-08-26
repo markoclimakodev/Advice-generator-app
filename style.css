@@ -79,6 +79,8 @@ body {
   padding: 1rem;
 
   cursor: pointer;
+
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 #generate_advice img {
@@ -88,6 +90,8 @@ body {
 
 #generate_advice:hover {
     box-shadow: 3px -3px 50px -5px rgba(82,255,168,1);
+  transition: box-shadow 0.3s ease-in-out;
+
 }
 
 .attribution {
