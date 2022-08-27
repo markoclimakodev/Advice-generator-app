@@ -95,5 +95,14 @@ body {
 }
 
 .attribution {
-  display: none;
+  color: var(--light_Cyan);
+  text-align: center;
+  
+  position: fixed;
+  bottom: 2rem;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--neon_Green);
 }
