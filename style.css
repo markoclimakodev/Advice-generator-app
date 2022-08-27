@@ -48,7 +48,7 @@ section {
   position: relative;
 }
 
-section h2 {
+section h1 {
   color: var(--neon_Green);
 
   font-size: 0.75rem;
