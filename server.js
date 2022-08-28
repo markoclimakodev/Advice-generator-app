@@ -4,7 +4,7 @@ const advice_id = document.querySelector("#advice_id");
 const advice = document.querySelector("#advice");
 
 function fetchApiData() {
-  fetch(`https://api.adviceslip.com/advice`)
+  fetch(`https://api.adviceslip.com/advice`,{cache: "no-cache"})
     .then((response) => response.json())
     .then(({ slip }) => {
       advice_id.innerHTML = slip.id;
